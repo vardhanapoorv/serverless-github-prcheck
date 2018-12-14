@@ -15,7 +15,7 @@ var Closing_keywords = [
 
 module.exports.githubPRCheck = (event, context, callback) => {
   var gh = Github.new({
-    token: "8751df2d6d1dc6e82e36a5bcb28684baf1447445"
+    token: "YOUR_GITHUB_TOKEN"
   });
   const body = JSON.parse(event.body);
   const { pull_request, repository } = body;

@@ -21,7 +21,7 @@ provider:
   name: aws
   runtime: nodejs8.10
   environment:
-    GITHUB_TOKEN: "8751df2d6d1dc6e82e36a5bcb28684baf1447445"
+    GITHUB_TOKEN: "YOUR_GITHUB_TOKEN"
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
